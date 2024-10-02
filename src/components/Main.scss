@@ -1,0 +1,147 @@
+@import "../color.scss/variables";
+
+img {
+  object-fit: cover;
+}
+
+// estilização da primeira seção
+
+.box {
+  background: $primary-color;
+  padding: 5em;
+  h1 {
+    font-size: 3.5em;
+  }
+
+  .h5 {
+    letter-spacing: 0.1em;
+  }
+
+  .btn-1 {
+    border: 0.15em solid $bg-color;
+    background: $color;
+    color: $text-color;
+    letter-spacing: 0.1em;
+  }
+
+  .btn-2 {
+    border: 0.18em solid $color;
+    background: transparent;
+    color: $text-black;
+    letter-spacing: 0.1em;
+
+    &:hover {
+      color: $bg-color;
+      border: 0.18em solid $bg-color;
+    }
+  }
+}
+
+.box-01 {
+  width: 100%;
+  background: $bg-black;
+}
+
+// estilizando a segunda seção
+
+.container {
+  .btn-01 {
+    border: 0.15em solid $bg-color;
+    background: $color;
+    color: $text-color;
+    letter-spacing: 0.2em;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+// estilizando a tericeira seção
+
+.container-fluid {
+  background: $primary-color;
+}
+
+// estilizando a quarta seção
+
+.box_education {
+  gap: 50%;
+}
+
+// estilizando a quinta seção
+
+.box_secao {
+  background: $bg-black;
+  padding-bottom: 1em;
+}
+
+// estilizando sexta seção
+
+.bg_form {
+  background: $primary-color;
+  max-width: 50%;
+  height: 33em;
+  padding: 0.5rem;
+
+  .paragraph_text {
+    letter-spacing: 0.1em;
+  }
+}
+
+@media (max-width: 756px) {
+  .bg_form {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+// estilizando o formulário
+
+label {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+input[type="text"] {
+  // min-width: 50vw;
+  padding: 0.5em;
+  outline: none;
+  border: none;
+  border-bottom: 0.1em solid $bg-black;
+}
+
+input[type="email"] {
+  width: 30em;
+  padding: 0.5em;
+  outline: none;
+  border: none;
+  border-bottom: 0.1em solid $bg-black;
+}
+
+textarea {
+  width: 30em;
+  padding: 0.5em;
+  outline: none;
+  border: none;
+  border-bottom: 0.1em solid $bg-black;
+}
+
+.button {
+  border: 0.15em solid $bg-color;
+  background: $primary-color;
+  color: $text-color;
+  letter-spacing: 0.2em;
+  font-size: 1.3em;
+}
+
+.message_envio{
+  border: .2em solid;
+  border: none;
+  color: $bg-border;
+  width: 17em;
+  margin-top: .5em;
+  font-weight: 600;
+  letter-spacing: .04em;
+  font-style: italic;
+  font-size: 1.2em;
+}
