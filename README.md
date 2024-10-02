@@ -26,7 +26,7 @@ You may also see any lint errors in the console.
 Eu usei como meu frontend o Framework React.js, JavaScript
 
 
-## Para crias projeto em React.js
+## Para criar projetos em React.js
 
 
 npx create-react-app meu-primeiro-projeto
@@ -43,7 +43,7 @@ Eu usei o sass para estilizar toda a minha ladingpage e deixa-lá linda.
 
 Eu usei a biblioteca do Bootstrap 5 sempre uso ela pra deixar toda a minha ladingpage responsiva
 
-Como instalar "npm install bootstrap"
+Como instalar o Bootstrap "npm install bootstrap"
 
 
 ## Observação
