@@ -96,9 +96,9 @@ function Main() {
         <div className="box-01">
           <div data-aos="fade-left">
             <img
-              className="py-5 container container-lg img-fluid ms-lg-5"
+              className="py-5 container img-fluid ms-lg-5"
               src={imagem}
-              alt="Imagem de ima mulher sorrindo"
+              alt="Imagem de uma mulher sorrindo"
               style={{ width: "33rem", height: "40rem" }}
             />
           </div>
@@ -128,7 +128,7 @@ function Main() {
         </div>
       </section>{" "}
       {/* terceira seção */}
-      <section className="container-fluid mt-5">
+      <section className="container mt-5 container_fundo">
         <div className="p-5">
           <div data-aos="fade-left">
             <h1 className="text-light fw-light fs-2 mb-5 text-center text-lg-start">
