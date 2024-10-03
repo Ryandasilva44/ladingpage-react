@@ -78,17 +78,17 @@ function Main() {
     <main>
       {/* Primeira seção */}
       <section className="d-lg-flex">
-        <div className="box text-center container-fluid">
+        <div className="box">
           <div data-aos="fade-right">
-            <h1 className="fw-bolder text-light">{name}</h1>
+            <h1 className="fw-bolder text-light text-center mt-5">{name}</h1>
           </div>
 
-          <p className="h5 text-light fw-bold">{paragraph}</p>
-          <p className="p-5 text-light fw-bold fs-4">{paragraph2}</p>
+          <p className="h5 text-light fw-bold text-center">{paragraph}</p>
+          <p className="text-center text-lg-center text-light fw-bold fs-4 mt-5">{paragraph2}</p>
           <div className="d-flex flex-wrap justify-content-center align-items-center">
-            <button className="btn-1 py-3 px-4 me-3">{button1}</button>
+            <button className="btn-1 py-3 px-4 me-3 mt-5 mb-5">{button1}</button>
             <div>
-              <button className="btn-2 py-3 px-4">{button2}</button>
+              <button className="btn-2 py-3 px-4 mt-5 mb-5">{button2}</button>
             </div>
           </div>
         </div>
@@ -96,10 +96,10 @@ function Main() {
         <div className="box-01">
           <div data-aos="fade-left">
             <img
-              className="py-5 container img-fluid ms-lg-5"
+              className="p-4 mulher_sorrindo w-100"
               src={imagem}
               alt="Imagem de uma mulher sorrindo"
-              style={{ width: "33rem", height: "40rem" }}
+              style={{ width: "25rem", height: "40rem" }}
             />
           </div>
         </div>
@@ -109,7 +109,7 @@ function Main() {
         <div>
           <div data-aos="fade-right">
             <img
-              className="container img-fluid"
+              className="w-100"
               src={imagem1}
               alt="Imagem de uma mulher pensativa"
               style={{ width: "25rem", height: "25rem" }}
