@@ -262,7 +262,7 @@ function Main() {
           </p>
           <p className="text-start text-lg-start ms-5 fs-5 fw-bold text-light">
             Write:{" "}
-            <a href="http://www.linkedin.com/in/ryan-fron-end" className="ms-2">
+            <a href="http://www.linkedin.com/in/ryan-front-end" className="ms-2">
               Ryan@linkedin
             </a>
           </p>
